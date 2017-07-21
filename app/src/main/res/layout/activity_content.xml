@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment01"
+    android:name="com.example.ogpphone.fragment.MainFragment"
+   ></fragment>
+
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment02"
+    android:name="com.example.ogpphone.fragment.TaskFragment"></fragment>
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment03"
+    android:name="com.example.ogpphone.fragment.EventFragment"></fragment>
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment04"
+    android:name="com.example.ogpphone.fragment.QRFragment"
+   >
+</fragment>
+
+
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF000"
+        android:orientation="horizontal"
+        android:padding="10dp">
+   <RadioButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/frag01"
+       android:gravity="center"
+       android:layout_weight="1"
+       android:button="@null"
+       android:text="@string/fragment01"
+       />
+
+        <RadioButton
+            android:id="@+id/frag02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+          android:text="@string/fragment02"
+            />
+
+        <RadioButton
+            android:id="@+id/frag03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="@string/fragment03"
+            />
+
+        <RadioButton
+            android:id="@+id/frag04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="@string/fragment04"
+            />
+
+
+
+
+    </RadioGroup>
+
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OGPphone</string>
+    <string name="menu_host">Host</string>
+    <string name="no_network">no network！</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">这是主页面</string>
+    <string name="fragment01">主页</string>
+    <string name="fragment02">任务</string>
+    <string name="fragment03">事件</string>
+    <string name="fragment04">QR</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="button_ok">OK</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+</resources>

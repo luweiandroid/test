@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">互联巡检</string>
+    <string name="menu_host">主机</string>
+<string name="no_network">当前网络不给力！</string>
+<string name="fragment01">主页</string>
+    <string name="fragment02">任务</string>
+    <string name="fragment03">事件</string>
+    <string name="fragment04">QR</string>
+</resources>
